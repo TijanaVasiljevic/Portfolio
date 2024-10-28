@@ -1,0 +1,225 @@
+*{
+     margin: 0;
+     padding:0; 
+     box-sizing: border-box;
+}
+    html {
+         max-width: 100%; 
+        overflow-x: hidden;
+    }
+.container {
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.logo{
+    margin-top: 4px;
+    
+}
+header {
+    height: 56px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-bottom:  2px #f97352 ;
+    box-shadow: 0 2px 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}   
+.navbar a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.navbar a:hover{
+    color: #f97352;
+}
+header:hover{
+    color: #f97352;
+
+}
+.cover {  
+    height: 903px;
+
+    background-image: url(images/cover.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.poster {
+    height: 600px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.poster h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.poster img {
+    margin-top: 10%;
+}
+.white-line{
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+}
+.grey-line{
+    width: 35px;
+    height: 3px;
+    background-color: grey; 
+   margin-left: 49%;}
+.grey {  
+    width:100%;
+    background-color: #3D4045;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.heading {   
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+.heading h2 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
+.start  {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#btn {
+    height: 49px;
+    width: 275px;
+    background-color: #f97352;
+    border: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+ .glass, .microscope, .motorbike {
+    height: 600px;
+     width:33.3%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     justify-items: center;
+     color: white;
+     font-size: 20px;
+ }  
+.glass {
+    background-color: #3EDBD9;   
+}
+.microscope {
+    background-color: #3A98FE;    
+}
+.motorbike{
+   background-color: #5841B8;
+}
+.cliparts {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
+    text-align: center;
+   
+    margin-top: 110px;
+    margin-bottom: 110px; 
+    gap:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+.orange {
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+}
+.orange:hover {
+ background-color: #f97352;
+ transition: 0.5s ease-in;
+ border-radius: 50%;    
+      }
+.cliparts  article {
+    width: 25%;
+}
+article p {
+    color: #999;
+  font-size: 14px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:40px;
+}
+article h4{
+    margin-top: 46px;
+}
+.umbrella {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.scissors {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.plane {
+    margin-left: 40px;
+    margin-right: 40px;
+}   
+.thumb {
+    margin-right: 40px;
+    margin-left:20px;   
+}
+.dream {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}    
+.dream h4{
+margin-top: 20px;
+margin-bottom: 20px;
+letter-spacing: 6px;
+color: #000;
+font-size: 24px;
+margin-right:-1%;
+}
+.images {
+    width: 100%;
+    margin-top: 60px;
+    
+}
+.images img {
+    width: 18%;
+    margin-top: 50px;  
+}
+ .images img:hover {
+    transition: 0.8s; 
+transform: scale(110%); 
+}
